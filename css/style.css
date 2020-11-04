@@ -318,6 +318,10 @@ footer p {
         display: none;
     }
 
+    .row.w-100 {
+        margin: 0 auto;
+        justify-content: center !important;
+    }
 
     #b4-override-id nav .container,
     #b4-override-id header .container {
@@ -325,15 +329,17 @@ footer p {
     }
 }
 
-@media all and (max-width:820px) {
+@media all and (max-width:820px) and (orientation:landscape) {
+    .display-4 {
+        font-size: 3rem;
+
+    }
 
     .inner-header+.inner-header,
     .phone-wrap-features {
         display: none;
     }
-
 }
-
 
 @media all and (orientation: portrait) and (max-width:600px) {
 
@@ -345,6 +351,7 @@ footer p {
     .phone-wrap-features {
         display: none;
     }
+
 
     #features .inner-container {
         width: 100% !important;

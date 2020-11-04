@@ -13,5 +13,8 @@ const scrollEvents = () => {
     const headerParallax = () => {
         document.querySelector('.mask').style.transform = `translateY(${window.scrollY/1.2}px)`;
     };
-    headerParallax();
+
+    if (window.scrollY < document.querySelector('header').offsetHeight) {
+        headerParallax();
+    };
 };
