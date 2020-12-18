@@ -8,6 +8,7 @@ https://pshemcio.github.io/3-new-age-landing-page-dodatkowe/
 ## Built With
 
 * [Javascript](https://developer.mozilla.org/pl/docs/Web/JavaScript)
+* [Bootstrap](https://getbootstrap.com/)
 * [CSS3](https://developer.mozilla.org/pl/docs/Web/CSS)
 * [HTML5](https://developer.mozilla.org/pl/docs/HTML/HTML5) 
 
